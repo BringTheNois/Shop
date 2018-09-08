@@ -84,7 +84,13 @@ Generic styles
 }
 
 .footer {
-    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #353d47;
+    color: white;
+    text-align: center;
 }
 
 /* ==========================================================================

@@ -13,12 +13,11 @@ import { NotificationInterceptor } from './blocks/interceptor/notification.inter
 import { ShopSharedModule } from 'app/shared';
 import { ShopCoreModule } from 'app/core';
 import { ShopAppRoutingModule } from './app-routing.module';
-import { ShopHomeModule } from './home/home.module';
+import { ShopHomeModule } from 'app/home';
 import { ShopAccountModule } from './account/account.module';
 import { ShopEntityModule } from './entities/entity.module';
 import { StateStorageService } from 'app/core/auth/state-storage.service';
 import * as moment from 'moment';
-// jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ErrorComponent } from './layouts';
 
 @NgModule({
@@ -31,7 +30,6 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
         ShopHomeModule,
         ShopAccountModule,
         ShopEntityModule
-        // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, FooterComponent],
     providers: [
