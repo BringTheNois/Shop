@@ -52,7 +52,8 @@ Generic styles
 
 .jh-card {
     padding: 1.5%;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: none;
 }
 
@@ -91,6 +92,10 @@ Generic styles
     background-color: #353d47;
     color: white;
     text-align: center;
+}
+
+.margin-for-footer {
+    margin-bottom: 80px;
 }
 
 /* ==========================================================================
